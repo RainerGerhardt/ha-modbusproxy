@@ -1,6 +1,6 @@
 name: "modbus-proxy-2"
 description: "Second Instance of Proxy for Accessing modbus systems. Allows multiple client connections"
-version: "1.0.18"
+version: "1.0.18a"
 slug: "modbus_proxy_2"
 arch:
   - aarch64
@@ -11,9 +11,9 @@ url: "https://community.home-assistant.io/t/updated-solaredge-modbus-full-setup-
 startup: services
 init: false
 options:
-  upstreamhost: "192.168.178.74"
-  upstreamport: 502
-  listenport: 502
+  upstreamhost: "192.168.2.61"
+  upstreamport: 1502
+  listenport: 1502
   connection_time: 0.1
   timeout: 10
   loglevel: "INFO"
@@ -25,4 +25,4 @@ schema:
   timeout: int
   loglevel: list(INFO|DEBUG|ERROR)
 ports:
-  502/tcp: 502
+  5503/tcp: 5503
