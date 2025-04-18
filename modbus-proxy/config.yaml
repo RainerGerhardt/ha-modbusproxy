@@ -1,7 +1,7 @@
-name: "modbus-proxy"
-description: "Proxy for Accessing modbus systems. Allows multiple client connections"
+name: "modbus-proxy 2"
+description: "Second Instance of Proxy for Accessing modbus systems. Allows multiple client connections"
 version: "1.0.18"
-slug: "modbus_proxy"
+slug: "modbus_proxy_2"
 arch:
   - aarch64
   - amd64
