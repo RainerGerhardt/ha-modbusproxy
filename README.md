@@ -1,4 +1,4 @@
-# Home Assistant AddOn Modbus Proxy
+# Home Assistant AddOn Modbus Proxy second instance
 
 Allows you to connect multiple clients to one single modbus server. Usally one modbus server only allows a single connection and denies any more clients. 
 
